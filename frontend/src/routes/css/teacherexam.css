@@ -1,0 +1,84 @@
+/* teacherexam.css */
+
+.teacher {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.teacher .title5{
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub .selectBox3,
+.teach input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.sub .head1,
+.teach .head1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.Startbutton {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    
+}
+
+.Startbutton:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive CSS */
+
+@media (max-width: 600px) {
+    .teacher {
+        max-width: 90%;
+    }
+
+    .sub .selectBox3,
+    .teach input[type="text"] {
+        font-size: 14px;
+    }
+
+    .teacher .title5{
+        font-size: 20px;
+    }
+
+    .Startbutton {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 400px) {
+    .teacher h1 {
+        font-size: 18px;
+    }
+
+    .Startbutton {
+        font-size: 14px;
+    }
+}

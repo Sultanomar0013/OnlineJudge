@@ -1,0 +1,66 @@
+.student10 {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.head9{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.time4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+.student9{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.serial1 {
+    padding-left: 20px;
+}
+
+.line1 {
+    margin-bottom: 10px;
+}
+
+.solution1{
+    margin-top: 30px;
+    height: 60vh;
+    width: 150vh;
+}
+.sbmitbutton6{
+        width: 20%;
+        padding: 10px;
+        background-color: #007bff;
+        color: #fff;
+        font-size: 18px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 30px;
+        margin-bottom: 80px;
+    }
+
+/* Styles for larger screens */
+@media screen and (min-width: 768px) {
+    .student {
+        max-width: 800px;
+        padding: 40px;
+    }
+}
+
+/* Styles for even larger screens */
+@media screen and (min-width: 1200px) {
+    .student {
+        max-width: 1000px;
+        padding: 60px;
+    }
+}

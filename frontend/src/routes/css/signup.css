@@ -1,0 +1,89 @@
+
+
+.signup {
+  max-width: 400px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.title1 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.dif {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.Inputbox2 {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.Selectbox2 {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.check {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.checkbox1 {
+  margin-right: 10px;
+}
+
+.SignUpbutton1 {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.SignUpbutton1:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive CSS */
+
+@media (max-width: 600px) {
+  .signup {
+    max-width: 90%;
+  }
+  
+  .Inputbox2,
+  .Selectbox2 {
+    font-size: 14px;
+  }
+
+  .SignUpbutton1 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 400px) {
+  .title1 {
+    font-size: 20px;
+  }
+
+  .SignUpbutton1 {
+    font-size: 14px;
+  }
+}
+
+  
